@@ -5,7 +5,7 @@ student in class to answer my next question. It uses Hibernate with MySQL for
 the data backend.
 
 I put it together in a couple of hours, which means the core functionality is 
-there, but iit really still has lots of rough edges, like:
+there, but it really still has lots of rough edges, like:
 
 * I've hard coded the directory that the student photos are located in, which 
     was neither a good practice, nor now that I think of it a good place to
