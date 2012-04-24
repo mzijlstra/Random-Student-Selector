@@ -1,0 +1,16 @@
+Random Student Selector
+
+This is a little Java Swing application I wrote to help me select a random
+student in class to answer my next question. It uses Hibernate with MySQL for
+the data backend.
+
+I put it together in a couple of hours, which means the core functionality is 
+there, but iit really still has lots of rough edges, like:
+
+* I've hard coded the directory that the student photos are located in, which 
+    was neither a good practice, nor now that I think of it a good place to
+    store the pictures in the first place.
+* I made a one to many relationship between course and student, which in 
+    the long run is most definitely going to bite me.
+* I coded the beginnings of being able to switch between different courses, but
+    other than showing a dropdown it doesn't actually do anything yet.
